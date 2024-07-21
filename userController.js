@@ -1,6 +1,6 @@
 const { createConnection } = require('../database');
 
-// Fonction pour enregistrer un nouvel utilisateur
+
 exports.registerUser = async (req, res) => {
     const { username, password, access_code } = req.body;
 
